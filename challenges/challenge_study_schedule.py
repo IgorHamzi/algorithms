@@ -1,7 +1,8 @@
-#def study_schedule(permanence_period, target_time):
+# def study_schedule(permanence_period, target_time):
 #    students = 0
 #
-#    if target_time and permanence_period is None or type(permanence_period) != list:
+#    if target_time and permanence_period
+# is None or type(permanence_period) != list:
 #        return None
 #    else:
 #        for i in permanence_period:
