@@ -8,11 +8,11 @@ def quickSort(arr):
     current_position = 0
 
     for i in range(1, elements):
-         if arr[i] <= arr[0]:
-              current_position += 1
-              temp = arr[i]
-              arr[i] = arr[current_position]
-              arr[current_position] = temp
+        if arr[i] <= arr[0]:
+            current_position += 1
+            temp = arr[i]
+            arr[i] = arr[current_position]
+            arr[current_position] = temp
 
     temp = arr[0]
     arr[0] = arr[current_position]
