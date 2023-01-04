@@ -8,6 +8,6 @@ def study_schedule(permanence_period, target_time):
         if type(i[0]) != int or type(i[1]) != int:
             return None
         if str(target_time) >= str(i[0]) and str(target_time) <= str(i[1]):
-                students += 1
+            students += 1
 
     return students
