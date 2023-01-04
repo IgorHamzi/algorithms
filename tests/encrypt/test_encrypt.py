@@ -1,6 +1,7 @@
 from challenges.challenge_encrypt_message import encrypt_message
 import pytest
 
+
 def test_encrypt_message():
     invalid_key1 = encrypt_message("ABCD", 20)
     assert invalid_key1 == "DCBA"
@@ -13,6 +14,6 @@ def test_encrypt_message():
 
     with pytest.raises(TypeError):
         encrypt_message("AABBCC", None)
-    
+
     with pytest.raises(TypeError):
         encrypt_message(None, 3)
